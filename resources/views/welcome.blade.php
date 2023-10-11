@@ -83,13 +83,13 @@
                 <div class="box">
                     <figure>
                         <a href="#">
-                            <img src="img/logo1.jpg" alt="logo de Solshop">
+                            <img src="img/logo1.jpg" alt="logo de leonel.inc">
                         </a>
                     </figure>
                 </div>
                 <div class="box">
                     <h2>Sobre nosotros:</h2>
-                    <p>Somos una empresa privada q cuenta con tienda virtual destinada a exponer y vender articulos de electronica y ropa.</p>
+                    <p>Somos una empresa privada que cuenta con tienda virtual destinada a exponer y vender articulos que nuestros usuarios registrados publican.</p>
                     <p>Tambien contamos con el servicio de prestamo de dinero.</p>
                 </div>
                 <div class="box">
