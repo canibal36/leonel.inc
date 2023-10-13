@@ -19,9 +19,10 @@ return new class extends Migration
             $table->string('imagen');
             $table->boolean('estado');
             $table->integer('stock');
-            $table->string('codigo_producto');
+            $table->string('codigo_de_barras');
+            $table->unsignedBigInteger('producto_id');
+            $table->foreign('producto_id')->references('id')->on('categoria_productos');
             $table->timestamps();
-    
         });
     }
 

@@ -21,7 +21,8 @@ Route::get('/', function () {
 
 Route::controller(ProductoController::class)->group(function () {
     // Route::get('/email/resend', 'resend')->name('verification.resend');
-    Route::get('/producto', 'index')->name('index');
+    Route::get('/producto', 'index')->name('producto');
+
 });
 Route::middleware([
     'auth:sanctum',
@@ -32,3 +33,6 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+
