@@ -69,7 +69,6 @@
 }
 
 /* Estilos para Control de Productos */
-.card-header.productos {
-   
-}
+
+
 </style>
